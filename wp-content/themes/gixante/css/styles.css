@@ -72,8 +72,8 @@ p { margin-bottom: 18px; }
 .nav { position: relative; z-index: 1000; }
 .nav ul li { margin-bottom: 18px; position: relative; text-transform: uppercase; }
 .nav ul li a { text-decoration: none; color:#1e1d1c; }
-body.home .nav ul li a,
-body.welcome .nav ul li a { text-decoration: none; color:#ffffff; }
+/*body.home .nav ul li a,
+body.welcome .nav ul li a { text-decoration: none; color:#ffffff; } */
 .nav ul li a:hover,
 .nav ul li.current_page_item a,
 .nav ul li.current-page-ancestor a { color:#ea5b25 !important; }
@@ -238,7 +238,7 @@ ul.menus li a { position: relative; z-index:10; background: #D6D5D4; padding-rig
 @media only screen and (min-width: 1366px) {
     body { font-size: 14px; line-height: 20px; }
     h1, h2, h3, h4 { font-size: 14px; }
-    .logo { width:35px; }
+    .logo { width:75px; }
     .main { width: 725px; padding-top: 114px; } 
     .main.food-wine { width: 725px; }
     .main.reservations { /*padding-top: 190px;*/ }

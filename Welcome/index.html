@@ -35,10 +35,11 @@
   <div class="wrapper">
     <div class="left-panel">
       <div class="logo">
-                        <a href="http://www.gixante.com"><img src="../wp-content/images/creacion5.gif" alt="Gixante" /></a>
+                        <a href="../index.html"><img src="../wp-content/themes/gixante/img/logo.png" alt="Gixante" /></a>
                 </div>  
       <div class="nav">
-                <ul id="menu-nav" class="menu"><li id="menu-item-28" class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-14 current_page_item menu-item-28"><a href="welcome/index.html">Welcome</a></li>
+                <ul id="menu-nav" class="menu">
+<li id="menu-item-28" class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-14 current_page_item menu-item-28"><a href="../Welcome/index.html">Welcome</a></li>
 <li id="menu-item-29" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-29"><a href="../About/index.html">About</a></li>
 <li id="menu-item-30" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-30"><a href="../Products/index.html">Products</a></li>
 <li id="menu-item-74" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-74"><a href="../People/index.html">People</a></li>
@@ -47,24 +48,43 @@
 <li id="menu-item-65" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-65"><a target="_blank" href="https://twitter.com/Alpigiano">Social</a></li>
 </ul>      </div>     
     </div>
-    <div class="showhide-nav">&nbsp;</div> 
-
-
-    
-
-    <!-- welcome -->
-            
-            <div class="background-image">
-                <div class="background-image-inner"  style="background-image:url(http://www.typingroom.com/wp-content/uploads/2014/06/FLOWER.jpg)"></div>            </div>
-            <div class="contact-overlay">
-            </div>         
-
-            <div class="main white">
+    <div class="showhide-nav">&nbsp;</div>
+			
+            <div class="main black">
 
             	<p>“This is the best welcome message eva!”</p>
 
             </div> 
 
+            <div id="maximage">
+                <img src="../wp-content/images/background_faint.jpg" alt="" />            </div>
+            <div class="overlay">
+
+            </div> 
+
+    </div> 
+
+
+    
+
+    <!-- welcome
+    
+			<div id="maximage">
+                <img src="wp-content/images/background_home.jpg" alt="" />            </div>
+            <div class="overlay">
+			</div>
+    
+            <div class="background-image">
+                <div class="background-image-inner"  style="background-image:url(wp-content/images/background_home.jpg)"></div>            </div>
+            <div class="contact-overlay">
+            </div>         
+            
+            <div class="main white">
+
+            	<p>“This is the best welcome message eva!”</p>
+
+            </div> 
+-->
             
    
     </div>
@@ -75,9 +95,9 @@
     $( document ).ready( function() {
 	    // logo
           			    $( ".logo" ).mouseover(function() {
-			        $(this).find("img").attr('src','../wp-content/images/creacion5.gif');      
+			        $(this).find("img").attr('src','../wp-content/themes/gixante/img/logo.png');      
 			    }).mouseout(function() {
-			        $(this).find("img").attr('src','../wp-content/images/creacion5.gif');
+			        $(this).find("img").attr('src','../wp-content/themes/gixante/img/logo.png');
 			    }); 
           
     });
