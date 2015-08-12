@@ -253,6 +253,7 @@ ul.menus li a { position: relative; z-index:10; background: #D6D5D4; padding-rig
     .person .details { padding-right: 170px; min-height: 0; }
     .person .photo { width: 150px; }
     .person .photo img { width: 100%; height: auto; } */
+    .logo { width:75px; }
     .title h1 { width:80%; }
     .title h1 img { width:80%; } 
     .gallery-wrapper .image-Team { left:auto; right:0; }
