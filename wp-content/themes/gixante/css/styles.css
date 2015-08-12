@@ -44,11 +44,8 @@ body.contact { background: #000000; }
 h1, h2, h3, h4 { font-size: 14px; font-weight: normal; margin: 0; }
 
 .title { position: absolute; z-index: 1000; top: 50%; left:100px; right:100px; margin-top: -25px; }
-.title h1 { position: relative; z-index: 1000; margin: 0 auto;  width:458px; }
+.title h1 { position: relative; z-index: 1000; margin: 0 auto;  width:664px; }
 .title h1 img { width: 100%; height: auto; display: block; }
-.title .christmas { margin-top:10px; text-align: center; }
-.title .christmas p a { color:#ffffff; text-decoration: none; text-transform: uppercase; }
-.title .christmas p a:hover { color:#ea5b25; text-decoration: none; }
 
 h2 { }
 /*h2:before { content: "*"; display: block; color:#212120; }*/
@@ -189,7 +186,7 @@ body.welcome .main:before { color:#ffffff; }
 .ui-datepicker-calendar td a.ui-state-hover { color:#ea5b25; }
 
 /* menus
------------------------------------------------------------------------ */
+----------------------------------------------------------------------- 
 .sample-menus { width: 620px; }
 .sample-menus h3:after { content: "~"; display: block; color:#ffffff; }
 .sample-menus .dots { background: url(../img/dot-white.png) repeat-x 1px 7px; margin-top: 0; position: relative; width:570px; }
@@ -200,7 +197,7 @@ ul.menus:before { content: "*"; display: block; color:#212120; }
 ul.menus li { position: relative; margin-bottom: 18px; }
 ul.menus li .dots { position: absolute; left: 0; right: 0; background: url(../img/dot.png) repeat-x 1px 7px; height: 100%; margin-top: 0; }
 ul.menus li a { position: relative; z-index:10; background: #D6D5D4; padding-right: 1px; text-transform: uppercase; color:#ea5b25; }
-
+*/
 /* person
 ----------------------------------------------------------------------- */
 .person { position: relative; min-height: 245px; }
@@ -225,15 +222,15 @@ ul.menus li a { position: relative; z-index:10; background: #D6D5D4; padding-rig
 .social-links ul { }
 .social-links ul li { float: left; margin-left:10px; }
 .social-links ul li:first-child { margin-left: 0; }
-
+/*
 .rosettes-box { position: absolute; z-index: 10000; left: 30px; bottom: 30px; width:180px;}
 .rosettes-box .rosettes-text { visibility: hidden;  width:180px; color: #ffffff; font-size:12px; padding-bottom: 5px; }
 .rosettes-box .rosettes-image { width:70px; height: 22px; background-image: url(../img/rosettes-white.png); background-size: 70px 22px; }
-.rosettes-box:hover .rosettes-image { background-image: url(../img/rosettes-red.png); }
+.rosettes-box:hover .rosettes-image { background-image: url(../img/rosettes-red.png); } */
 
-@media only screen and (max-width: 1024px) and (orientation : landscape) {
+/*@media only screen and (max-width: 1024px) and (orientation : landscape) {
 
-}
+}*/
 
 @media only screen and (min-width: 1366px) {
     body { font-size: 14px; line-height: 20px; }
@@ -255,7 +252,9 @@ ul.menus li a { position: relative; z-index:10; background: #D6D5D4; padding-rig
     /*.person { min-height: 0; }
     .person .details { padding-right: 170px; min-height: 0; }
     .person .photo { width: 150px; }
-    .person .photo img { width: 100%; height: auto; } */ 
+    .person .photo img { width: 100%; height: auto; } */
+    .title h1 { width:80%; }
+    .title h1 img { width:80%; } 
     .gallery-wrapper .image-Team { left:auto; right:0; }
     .prev,
     .next { top:290px; } 
@@ -272,6 +271,8 @@ ul.menus li a { position: relative; z-index:10; background: #D6D5D4; padding-rig
     .nav { margin-bottom: 10px; display: none; position: absolute; left:0px; right:0px; top:0px; z-index:10000; background: #605e5f; }
     .nav .menu { margin: 35px; }
     .nav ul li a { color: #ffffff; }
+    .title h1 { width:100%; }
+    .title h1 img { width:100%; }
     .main { width: 100%; padding-top: 0; }
     .main.food-wine { width: 100%; }
 
@@ -284,8 +285,8 @@ ul.menus li a { position: relative; z-index:10; background: #D6D5D4; padding-rig
 
     .main.gallery,
     .main.gallery-sub { margin: 0; }
-    /*body.gallery .gallery-wrapper { display: none; }*/
-    .logo { margin-bottom: 10px; }
+    /*body.gallery .gallery-wrapper { display: none; } 
+    .logo { margin-bottom: 10px; } */
     .gallery-nav { padding:0; width: auto; }
     .gallery-nav ul li { padding-right: 30px; }
     .slider-container { left: 35px; right: 35px; top:auto; bottom: auto; height: 500px; }
@@ -301,12 +302,12 @@ ul.menus li a { position: relative; z-index:10; background: #D6D5D4; padding-rig
 }
 
 @media only screen and (max-width: 480px) {
-    .wrapper { padding: 20px; }
-    .showhide-nav { top: 20px; right: 20px; }
-    .nav .menu { margin: 20px; }
-    .title { position: relative; top: 40px; left:0; right:0; }
+    .wrapper { padding: 40px; }
+    .showhide-nav { top: 40px; right: 40px; }
+    .nav .menu { margin: 40px; }
+    .title { left:20px; right:20px; }
     .title h1 { width:100%; }
-    .title h1 img { width: 100%; } 
+    .title h1 img { width: 100%; }
     .booking-form { background: none; padding: 0; margin:0; width:auto !important; }
     .booking-form .form-element { float:none; background: #8e8e8e; width:auto !important; padding: 10px; margin: 0 0 10px 0; }
     .booking-form .form-element input#startDate { border: 0; width:auto; }
