@@ -37,7 +37,6 @@
 html { height: 100%; }
 body { /* background: #fcf8f5; background: #d8d6d6;  background: #605e5f;*/ background: #f4f4f4; font-family: "Pitch-Regular", Arial, Helvetica, sans-serif; /*color:#212120;*/ /*color:#ffffff;*/ color: #1e1d1c; font-size: 14px; position: relative; height: 100%; }
 body.home { overflow: hidden; }
-body.contact { background: #000000; }
 
 .wrapper { padding: 35px 0 35px 35px; }
 
@@ -58,7 +57,7 @@ p { margin-bottom: 18px; }
 .white,
 .white p { color: #ffffff; }
 
-.logo { position: relative; z-index: 1000; margin-bottom: 35px; width:29px; }
+.logo { position: relative; z-index: 1000; margin-bottom: 35px; width:75px; }
 .logo img { width: 100%; }
 .dots { background: url(../img/dot-white.png) repeat-x 1px 6px; height: 18px; margin-top: -18px; }
 .break { height: 18px; }
@@ -161,43 +160,6 @@ body.welcome .main:before { color:#ffffff; }
 .slider-container .caption { position:absolute; z-index: 1000000; bottom:0; left:0; right:0; padding:5px 0 0 20px; background: #fcf8f5; }
 .slider-container .caption p { margin-bottom: 0; color:#1e1d1c; }
 
-/* reservations
------------------------------------------------------------------------ */
-.booking-form { background: #ffffff; padding: 20px; width:200px; color:#212120; }
-.booking-form .form-element { width:200px; padding-bottom: 10px; margin-bottom: 5px; background: url(../img/dot.png) repeat-x 1px bottom ; }
-.booking-form .form-element input#startDate { border: 0; width:80px; font-family: "Pitch-Regular", Arial, Helvetica, sans-serif; text-decoration: underline; background: #ffffff;}
-.booking-form .form-element select { font-family: "Pitch-Regular", Arial, Helvetica, sans-serif; background-color: #e5e5e5; }
-.booking-form .form-element .customSelectInner { text-decoration: underline; }
-/*.booking-form .form-element .partysize-bar { float: right; width:100px; }*/
-.booking-form .book-table a { color:#ea5b25; }
-
-/* calendar
------------------------------------------------------------------------ */
-.ui-datepicker { background: #e5e5e5; width: 187px; margin-top: 5px; }
-.ui-datepicker-header { background:#ea5b25; position: relative; }
-.ui-datepicker-title { text-align: center; color:#ffffff; line-height: 25px; }
-.ui-datepicker-prev span { position: absolute; left: 15px; top:4px; display: block; width: 7px; height: 8px; padding: 5px; text-indent: -9999px;  background: url('../img/arrow-left.gif') center center no-repeat; }
-.ui-datepicker-next span { position: absolute; right: 15px; top:4px; display: block; width: 7px; height: 8px; padding: 5px; text-indent: -9999px; background: url('../img/arrow-right.gif') center center no-repeat; }
-.ui-datepicker-calendar { width: 177px; margin: 0 5px 5px 5px; }
-.ui-datepicker-calendar th { font-weight: normal; color:#414042; padding: 5px 0; }
-.ui-datepicker-calendar td { text-align: right; padding: 5px 0;   }
-.ui-datepicker-calendar td a { color:#212120; }
-.ui-datepicker-calendar td a.ui-state-active,
-.ui-datepicker-calendar td a.ui-state-hover { color:#ea5b25; }
-
-/* menus
------------------------------------------------------------------------ 
-.sample-menus { width: 620px; }
-.sample-menus h3:after { content: "~"; display: block; color:#ffffff; }
-.sample-menus .dots { background: url(../img/dot-white.png) repeat-x 1px 7px; margin-top: 0; position: relative; width:570px; }
-.sample-menus .dots div { background: #f4f4f4; padding-right: 1px; display: inline-block; }
-.sample-menus .dots .price { position: absolute; right: 0; background: #f4f4f4;   padding-left: 1px; }
-.sample-menus .dots p { display: inline; margin: 0; }
-ul.menus:before { content: "*"; display: block; color:#212120; }
-ul.menus li { position: relative; margin-bottom: 18px; }
-ul.menus li .dots { position: absolute; left: 0; right: 0; background: url(../img/dot.png) repeat-x 1px 7px; height: 100%; margin-top: 0; }
-ul.menus li a { position: relative; z-index:10; background: #D6D5D4; padding-right: 1px; text-transform: uppercase; color:#ea5b25; }
-*/
 /* person
 ----------------------------------------------------------------------- */
 .person { position: relative; min-height: 245px; }
@@ -222,20 +184,11 @@ ul.menus li a { position: relative; z-index:10; background: #D6D5D4; padding-rig
 .social-links ul { }
 .social-links ul li { float: left; margin-left:10px; }
 .social-links ul li:first-child { margin-left: 0; }
-/*
-.rosettes-box { position: absolute; z-index: 10000; left: 30px; bottom: 30px; width:180px;}
-.rosettes-box .rosettes-text { visibility: hidden;  width:180px; color: #ffffff; font-size:12px; padding-bottom: 5px; }
-.rosettes-box .rosettes-image { width:70px; height: 22px; background-image: url(../img/rosettes-white.png); background-size: 70px 22px; }
-.rosettes-box:hover .rosettes-image { background-image: url(../img/rosettes-red.png); } */
-
-/*@media only screen and (max-width: 1024px) and (orientation : landscape) {
-
-}*/
 
 @media only screen and (min-width: 1366px) {
     body { font-size: 14px; line-height: 20px; }
     h1, h2, h3, h4 { font-size: 14px; }
-    .logo { width:75px; }
+    .logo { width:100px; }
     .main { width: 725px; padding-top: 114px; } 
     .main.food-wine { width: 725px; }
     .main.reservations { /*padding-top: 190px;*/ }
@@ -264,11 +217,12 @@ ul.menus li a { position: relative; z-index:10; background: #D6D5D4; padding-rig
 }
 
 @media only screen and (max-width: 768px) {
-    .wrapper { padding: 35px; }
+    .wrapper { padding: 40px; }
     .left-panel { position: static; }
-    .showhide-nav { display:block; background:url(../img/icon-showhide-grey.gif) no-repeat; width:14px; height:18px; position:absolute; top: 35px; right: 35px; z-index: 10001; cursor:pointer; }
-    .home .showhide-nav,
-    .welcome .showhide-nav { background:url(../img/icon-showhide.gif) no-repeat; }
+    .logo { width:55px; }
+    .showhide-nav { display:block; background:url(../img/nav_grey.png) no-repeat; width:51px; height:43px; position:absolute; top: 50px; right: 40px; z-index: 10001; cursor:pointer; }
+    .home .showhide-nav { background:url(../img/nav_white.png) no-repeat; }
+    .welcome .showhide-nav { background:url(../img/nav_grey.png) no-repeat; }
     .nav { margin-bottom: 10px; display: none; position: absolute; left:0px; right:0px; top:0px; z-index:10000; background: #605e5f; }
     .nav .menu { margin: 35px; }
     .nav ul li a { color: #ffffff; }
@@ -303,7 +257,7 @@ ul.menus li a { position: relative; z-index:10; background: #D6D5D4; padding-rig
 }
 
 @media only screen and (max-width: 480px) {
-    .wrapper { padding: 40px; }
+    .wrapper { padding: 30px; }
     .showhide-nav { top: 40px; right: 40px; }
     .nav .menu { margin: 40px; }
     .title { left:20px; right:20px; }
