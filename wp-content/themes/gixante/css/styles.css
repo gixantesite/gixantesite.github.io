@@ -104,8 +104,6 @@ body.welcome .nav ul li a { text-decoration: none; color:#ffffff; } */
 .main { margin: 0 auto; width: 610px; padding-top: 100px; /*position: relative; z-index: 1000;*/ }
 .main:before { content: "*"; display: block; color:#1e1d1c; }
 body.welcome .main:before { color:#ffffff; }
-.main.food-wine { width: 610px; }
-.main.reservations { }
 .main.gallery { margin: 116px 120px 0 245px; padding-top: 0; width:auto; position: relative; }
 .main.gallery:before { display: none; }
 .main.gallery-sub { margin: 0 120px 0 245px; padding-top: 0; }
@@ -116,8 +114,6 @@ body.welcome .main:before { color:#ffffff; }
 /*.col { float: left; position: relative; }
 .col.narrow { width: 220px; }
 .col.medium { width: 510px; margin-top: 172px; }
-.col.medium.food-wine { margin-top: 172px; }
-.col.medium.reservations { margin-top: 172px; }
 .col.medium.gallery { margin-top: 172px; }
 .col.medium.gallery-sub { width: 740px; margin-top: 172px; }
 .col.medium.contact { width:290px; margin-top: 244px; margin-right: 25px; }
@@ -190,8 +186,6 @@ body.welcome .main:before { color:#ffffff; }
     h1, h2, h3, h4 { font-size: 14px; }
     .logo { width:100px; }
     .main { width: 725px; padding-top: 114px; } 
-    .main.food-wine { width: 725px; }
-    .main.reservations { /*padding-top: 190px;*/ }
     .main.people { /*padding-top: 228px;*/ }
     .main.gallery { padding-top: 0; margin-top: 134px; }
     .main.gallery-sub { }
@@ -229,7 +223,6 @@ body.welcome .main:before { color:#ffffff; }
     .title h1 { width:100%; }
     .title h1 img { width:100%; }
     .main { width: 100%; padding-top: 0; }
-    .main.food-wine { width: 100%; }
 
     .person .photo { position: relative; width:100%; margin-bottom: 10px; top:auto; right:auto; }
     .person .photo img { width:100%; height:auto; }
