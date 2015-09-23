@@ -229,7 +229,7 @@ body.welcome .main:before { color:#ffffff; }
     .person .details { padding-right: 0;  min-height: 0; } 
     .contact .contact-content { padding-right: 0; }
     .contact .map { position: relative; top: auto; right: auto; width: 100%; }   
-    .contact .map img { width: 100%; height: auto; } 
+    .contact .map img { width: 80%; height: auto; } 
 
     .main.gallery,
     .main.gallery-sub { margin: 0; }
@@ -240,7 +240,9 @@ body.welcome .main:before { color:#ffffff; }
     .slider-container { left: 35px; right: 35px; top:auto; bottom: auto; height: 500px; }
     .prev, .next { display: none; }
 
-    .main.contact { width: auto; }  
+	/*change these 2 to 100% for full site*/
+    .main.contact { width: 80%}
+    .main.contact img {width: 80%} 
 
     .sample-menus .dots { background: url(../img/dot.png) repeat-x 1px 6px; }  
 
